@@ -6,5 +6,5 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="第一个" />
+        android:text="第一个个" />
 </TableLayout>
