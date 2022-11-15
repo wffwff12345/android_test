@@ -2,6 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:divider="@drawable/ic_baseline_horizontal_rule_24"
+    android:showDividers="middle"
+    android:dividerPadding="10dp"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <View
+        android:background="#00ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:background="#ffff00"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:background="#00ffff"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
 </LinearLayout>
