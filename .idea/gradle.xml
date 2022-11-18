@@ -11,6 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/leoAnimProperty" />
+            <option value="$PROJECT_DIR$/leoAnimTweened" />
+            <option value="$PROJECT_DIR$/leoLayoutparames" />
+            <option value="$PROJECT_DIR$/leoanim" />
             <option value="$PROJECT_DIR$/myalertdialog" />
             <option value="$PROJECT_DIR$/mybutton" />
             <option value="$PROJECT_DIR$/myconstraintlayout" />
