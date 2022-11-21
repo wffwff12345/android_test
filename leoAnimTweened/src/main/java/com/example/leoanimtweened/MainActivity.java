@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //通过加载xml动画设置文件来创建一个Animation对象
                 //Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.alpha);
                 //Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.rotate);
                 //Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.scale);

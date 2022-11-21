@@ -4,8 +4,7 @@
     android:layout_height="match_parent"
     android:collapseColumns="0,2"
     android:stretchColumns="1"
-    android:shrinkColumns="1"
-    >
+    android:shrinkColumns="1">
     <TableRow>
         <Button
             android:layout_column="2"

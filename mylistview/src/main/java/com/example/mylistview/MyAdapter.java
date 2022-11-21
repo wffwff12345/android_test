@@ -13,7 +13,8 @@ import java.util.List;
 
 public class MyAdapter extends BaseAdapter {
     private List<Bean> data;
-    private Context context;
+    private Context
+            context;
 
     public MyAdapter(List<Bean> data, Context context) {
         this.data = data;
@@ -40,7 +41,7 @@ public class MyAdapter extends BaseAdapter {
         ViewHolder viewHolder;
         if(convertView == null){
             viewHolder = new ViewHolder();
-            convertView=LayoutInflater.from(context).inflate(R.layout.list_item,parent,false);
+            convertView = LayoutInflater.from(context).inflate(R.layout.list_item,parent,false);
             viewHolder.textView = convertView.findViewById(R.id.tv);
             convertView.setTag(viewHolder);
         }else {
