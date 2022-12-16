@@ -35,11 +35,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         MyAdapter myAdapter = new MyAdapter(data, this);
         recyclerView.setAdapter(myAdapter);
-        myAdapter.setRecyclerItemClickListener(new MyAdapter.OnRecyclerItemClickListener() {
-            @Override
-            public void OnRecyclerItemClick(int position) {
-                Log.e(TAG, "OnRecyclerItemClick: "+position);
-            }
+        myAdapter.setRecyclerItemClickListener((position) -> {
+            Log.e(TAG, "OnRecyclerItemClick: " + position);
         });
     }
 }

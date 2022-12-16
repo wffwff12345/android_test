@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = popupView.findViewById(R.id.btn2);
         PopupWindow popupWindow = new PopupWindow(popupView, ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT,true);
-        popupWindow.setBackgroundDrawable(getResources().getDrawable(R.drawable.image1));
-        popupWindow.showAsDropDown(view,view.getWidth(),-view.getHeight());
+        //popupWindow.setBackgroundDrawable(getResources().getDrawable(R.drawable.image1));
+        popupWindow.showAsDropDown(view,30,30);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
