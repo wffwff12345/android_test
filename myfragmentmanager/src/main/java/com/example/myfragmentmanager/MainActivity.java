@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
                     @Override
                     public String GetMsgFromActivity(String msg) {
-                        return null;
+                        return "接受来自activity的消息";
                     }
                 });
                 //blankFragment.setArguments(bundle);

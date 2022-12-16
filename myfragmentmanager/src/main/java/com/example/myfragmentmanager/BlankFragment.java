@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,6 +28,7 @@ public class BlankFragment extends Fragment {
     private String mParam2;
     private String TAG = "fragment";
     private IFragmentCallBack iFragmentCallBack;
+    private String msg;
     public void SetFragmentCallBack(IFragmentCallBack callBack){
         iFragmentCallBack = callBack;
     }
@@ -72,10 +74,19 @@ public class BlankFragment extends Fragment {
             view = inflater.inflate(R.layout.fragment_blank, container, false);
         }
         Button button = view.findViewById(R.id.btn3);
+        Button button1 = view.findViewById(R.id.btn4);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 iFragmentCallBack.sendMsgToActivity("发消息给activity");
+            }
+        });
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                msg =iFragmentCallBack.GetMsgFromActivity(null);
+                Toast.makeText(getContext(),msg,Toast.LENGTH_SHORT).show();
             }
         });
         return view;

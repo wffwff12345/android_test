@@ -37,6 +37,7 @@
             <option value="$PROJECT_DIR$/mytextview" />
             <option value="$PROJECT_DIR$/mytoolbar" />
             <option value="$PROJECT_DIR$/myviewpager" />
+            <option value="$PROJECT_DIR$/wechatppage" />
           </set>
         </option>
       </GradleProjectSettings>

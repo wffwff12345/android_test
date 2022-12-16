@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myviewpager'
+    namespace 'com.example.wechatppage'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.myviewpager"
+        applicationId "com.example.wechatppage"
         minSdk 23
         targetSdk 32
         versionCode 1
