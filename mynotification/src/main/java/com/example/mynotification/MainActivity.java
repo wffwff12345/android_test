@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             manager.createNotificationChannel(channel);
         }
         Intent intent = new Intent(this, NotificationActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
         notification = new NotificationCompat.Builder(this,"leo")
                 .setContentTitle("官方通知")
                 .setContentText("世界这么大，出去走一走")

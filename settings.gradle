@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "My Application"
@@ -41,3 +42,4 @@ include ':myactivity'
 include ':myfragmentbase'
 include ':myfragmentmanager'
 include ':wechatppage'
+include ':mysp'

@@ -3,11 +3,13 @@ package com.example.myactivity;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
 public class Myservice extends Service {
-    private final static String TAG=Myservice.class.getSimpleName();
+    private final static String TAG = Myservice.class.getSimpleName();
+
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
@@ -21,21 +23,25 @@ public class Myservice extends Service {
 
     @Override
     public void onCreate() {
+        Log.e(TAG, "onCreate: onCreate ");
         super.onCreate();
     }
 
     @Override
     public void onStart(Intent intent, int startId) {
+        Log.e(TAG, "onCreate: onCreate ");
         super.onStart(intent, startId);
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.e(TAG, "onCreate: onStartCommand ");
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public void onDestroy() {
+        Log.e(TAG, "onCreate: onDestroy ");
         super.onDestroy();
     }
 }

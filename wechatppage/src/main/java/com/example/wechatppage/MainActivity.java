@@ -15,8 +15,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ViewPager2 viewPager2;
-    LinearLayout weixin,tongxun,faxian,wode;
-    ImageView 
+    private LinearLayout lw,lc,ls,lm;
+    ImageView WeChat,Communicate,Search,My;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
