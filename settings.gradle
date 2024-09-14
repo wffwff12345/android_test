@@ -3,6 +3,7 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 dependencyResolutionManagement {
@@ -43,3 +44,6 @@ include ':myfragmentbase'
 include ':myfragmentmanager'
 include ':wechatppage'
 include ':mysp'
+include ':chronometer'
+include ':batteryapplication'
+include ':quickcontactbadgeapplication'

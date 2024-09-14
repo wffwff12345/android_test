@@ -11,7 +11,7 @@
         -->
         <!-- 默认Activity -->
         <activity
-            android:name=".MainActivity4"
+            android:name=".MainActivity3"
             android:exported="true" >
 
             <!-- 激活默认的Activity的意图 -->

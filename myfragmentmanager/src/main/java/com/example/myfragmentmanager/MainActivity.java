@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                         return "接受来自activity的消息";
                     }
                 });
+
                 //blankFragment.setArguments(bundle);
                 replaceFragment(blankFragment);
                 break;

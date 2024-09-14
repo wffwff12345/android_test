@@ -4,14 +4,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="jbr-17" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/batteryapplication" />
+            <option value="$PROJECT_DIR$/chronometer" />
             <option value="$PROJECT_DIR$/leoAnimProperty" />
             <option value="$PROJECT_DIR$/leoAnimTweened" />
             <option value="$PROJECT_DIR$/leoLayoutparames" />
@@ -39,9 +39,11 @@
             <option value="$PROJECT_DIR$/mytextview" />
             <option value="$PROJECT_DIR$/mytoolbar" />
             <option value="$PROJECT_DIR$/myviewpager" />
+            <option value="$PROJECT_DIR$/quickcontactbadgeapplication" />
             <option value="$PROJECT_DIR$/wechatppage" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

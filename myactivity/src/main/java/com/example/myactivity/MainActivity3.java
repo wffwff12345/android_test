@@ -26,12 +26,12 @@ public class MainActivity3 extends AppCompatActivity {
         stopService(new Intent(this, Myservice.class));
     }
 
-    public void unbindService(View view)
+    public void bindService(View view)
     {
         bindService(new Intent(this, Myservice.class), connection, Context.BIND_AUTO_CREATE);
     }
 
-    public void bindService(View view) {
+    public void unbindService(View view) {
         unbindService(connection);
     }
 

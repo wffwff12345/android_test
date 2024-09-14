@@ -29,7 +29,7 @@ public class Myservice extends Service {
 
     @Override
     public void onStart(Intent intent, int startId) {
-        Log.e(TAG, "onCreate: onCreate ");
+        Log.e(TAG, "onCreate: onStart ");
         super.onStart(intent, startId);
     }
 

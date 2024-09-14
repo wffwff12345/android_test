@@ -15,6 +15,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ViewPager2 viewPager2;
+
     private LinearLayout lw,lc,ls,lm;
     ImageView WeChat,Communicate,Search,My;
     @Override
