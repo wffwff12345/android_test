@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/leoAnimTweened" />
             <option value="$PROJECT_DIR$/leoLayoutparames" />
             <option value="$PROJECT_DIR$/leoanim" />
+            <option value="$PROJECT_DIR$/materialdrawerapplication" />
             <option value="$PROJECT_DIR$/myactivity" />
             <option value="$PROJECT_DIR$/myalertdialog" />
             <option value="$PROJECT_DIR$/mybutton" />
@@ -39,6 +40,7 @@
             <option value="$PROJECT_DIR$/mytextview" />
             <option value="$PROJECT_DIR$/mytoolbar" />
             <option value="$PROJECT_DIR$/myviewpager" />
+            <option value="$PROJECT_DIR$/plainapplication" />
             <option value="$PROJECT_DIR$/quickcontactbadgeapplication" />
             <option value="$PROJECT_DIR$/wechatppage" />
           </set>

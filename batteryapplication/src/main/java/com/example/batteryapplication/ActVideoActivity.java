@@ -3,8 +3,13 @@ package com.example.batteryapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 
 import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.MediaItem;
@@ -21,6 +26,8 @@ public class ActVideoActivity extends AppCompatActivity implements JoystickView.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_act_video2);
 
         customControlsView = findViewById(R.id.custom_controls);
@@ -63,5 +70,6 @@ public class ActVideoActivity extends AppCompatActivity implements JoystickView.
         // 根据 x 和 y 的位置计算方向和力度
         // 可以在这里添加逻辑来控制游戏或设备
         System.out.println("Handle Position: (" + x + ", " + y + ")");
+        Log.i("Handle Position:", " (" + x + ", " + y + ")");
     }
 }
