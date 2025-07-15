@@ -9,9 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/alarmclock" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/batteryapplication" />
             <option value="$PROJECT_DIR$/chronometer" />
+            <option value="$PROJECT_DIR$/jizhangapplication" />
             <option value="$PROJECT_DIR$/leoAnimProperty" />
             <option value="$PROJECT_DIR$/leoAnimTweened" />
             <option value="$PROJECT_DIR$/leoLayoutparames" />
